@@ -32,7 +32,7 @@ if (form) {
     const service = (data.get("service") || "").toString().trim();
     const message = (data.get("message") || "").toString().trim();
 
-    const toNumber = "+19548804250"; // << your business number (E.164)
+    const toNumber = ""; // << your business number (E.164)
     const body =
       `Hi! My name is ${name}.%0A` +
       `Service: ${service}%0A` +
